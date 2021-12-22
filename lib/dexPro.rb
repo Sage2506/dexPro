@@ -20,7 +20,7 @@ module DexPro
     def self.search_by_number( number = 0)
         res = Net::HTTP.get_response(URI("#{BASE_URL}pokemon/#{number}"))
         if res.is_a? Net::HTTPSuccess
-            result = JSON.parse(res.body, {symbolize_names: true}).slice(:name)
+            JSON.parse(res.body, {symbolize_names: true}).slice(:name)
         else
             nil
         end
@@ -29,7 +29,7 @@ module DexPro
     def self.getPage( page = 1, limit = 25)
         res = Net::HTTP.get_response(URI("#{BASE_URL}pokemon?offset=#{ (page - 1) * limit}&limit=#{limit}"))
         if res.is_a? Net::HTTPSuccess
-            result = JSON.parse(res.body, {symbolize_names: true})
+            JSON.parse(res.body, {symbolize_names: true})
         else
             nil
         end
@@ -43,7 +43,7 @@ module DexPro
         req['Accept'] = 'application/json'
         req['Content-Type'] = 'application/json'
 
-        res = Net::HTTP.start(uri.hostname, uri.port) {|http|
+        Net::HTTP.start(uri.hostname, uri.port) {|http|
                 http.request(req)
             }
     end
@@ -51,7 +51,7 @@ module DexPro
     def self.test_delete(id = 0)
         res = Net::HTTP.new(BASE_URL).delete("#{id}")
         if res.is_a? Net::HTTPSuccess
-            result = JSON.parse(res.body, {symbolize_names: true})
+            JSON.parse(res.body, {symbolize_names: true})
         else
             nil
         end

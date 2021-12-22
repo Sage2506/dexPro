@@ -17,5 +17,5 @@ module DexPro
         private
 
         attr_reader :enumerable
-      end
+    end
 end
