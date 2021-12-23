@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/berry?limit=20&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 Dec 2021 03:09:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '280'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"51d-GY/V9nENFrEJrqhH0BzJzc1v8j0"
+      Function-Execution-Id:
+      - u352vl01du96
+      X-Cloud-Trace-Context:
+      - 04f34a4d5fb91ad7386e8db2b875ec36
+      X-Country-Code:
+      - MX
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dal21243-DAL
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1640228965.919746,VS0,VE227
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=swDFhGDpX25U4T40kD4pKZXNf%2BA7cvN0A2XHHpkmQ%2Bz2vq8CivrVUWH8fZZS72hTfneME5fgLMsNBW7kefUD%2B5D6Mi2VJ5EdHRtNliSs%2Bg%2BdIpZbjToMehNHSRJ4"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c1e64162fe75216-MEX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":64,"next":"https://pokeapi.co/api/v2/berry?offset=20&limit=20","previous":null,"results":[{"name":"cheri","url":"https://pokeapi.co/api/v2/berry/1/"},{"name":"chesto","url":"https://pokeapi.co/api/v2/berry/2/"},{"name":"pecha","url":"https://pokeapi.co/api/v2/berry/3/"},{"name":"rawst","url":"https://pokeapi.co/api/v2/berry/4/"},{"name":"aspear","url":"https://pokeapi.co/api/v2/berry/5/"},{"name":"leppa","url":"https://pokeapi.co/api/v2/berry/6/"},{"name":"oran","url":"https://pokeapi.co/api/v2/berry/7/"},{"name":"persim","url":"https://pokeapi.co/api/v2/berry/8/"},{"name":"lum","url":"https://pokeapi.co/api/v2/berry/9/"},{"name":"sitrus","url":"https://pokeapi.co/api/v2/berry/10/"},{"name":"figy","url":"https://pokeapi.co/api/v2/berry/11/"},{"name":"wiki","url":"https://pokeapi.co/api/v2/berry/12/"},{"name":"mago","url":"https://pokeapi.co/api/v2/berry/13/"},{"name":"aguav","url":"https://pokeapi.co/api/v2/berry/14/"},{"name":"iapapa","url":"https://pokeapi.co/api/v2/berry/15/"},{"name":"razz","url":"https://pokeapi.co/api/v2/berry/16/"},{"name":"bluk","url":"https://pokeapi.co/api/v2/berry/17/"},{"name":"nanab","url":"https://pokeapi.co/api/v2/berry/18/"},{"name":"wepear","url":"https://pokeapi.co/api/v2/berry/19/"},{"name":"pinap","url":"https://pokeapi.co/api/v2/berry/20/"}]}'
+  recorded_at: Thu, 23 Dec 2021 03:09:24 GMT
+recorded_with: VCR 6.0.0

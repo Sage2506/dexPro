@@ -7,6 +7,8 @@ require_relative "dexPro/async_stream"
 require_relative "dexPro/api"
 require_relative "dexPro/endpoint"
 require_relative "dexPro/pokemon"
+require_relative "dexPro/berry"
+require_relative "dexPro/contest_type"
 
 module DexPro
     BASE_URL = 'https://pokeapi.co/api/v2/'.freeze

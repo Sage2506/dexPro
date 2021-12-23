@@ -20,11 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
 After you install the gem you have access to all the categories classes.
 
-Get all the Pokémon will return all available pokémon on the Api returning them on an Array with each item contain it name and a link to the single item info:
+## Pokemon
+
+Get all the Pokémon will return all available pokémon on the Api returning them on an Array with each item contain its name and a link to the single item info:
 
 ```ruby
 DexPro::Pokemon.new().all
@@ -41,6 +42,48 @@ find a pokemon by its id or name, this method return a hash containing all the i
 ```ruby
 DexPro::Pokemon.new().find()
 ```
+
+## Berries
+
+Get all the Berries will return all available berries on the Api returning them on an Array with each item contain its name and a link to the single item info:
+
+```ruby
+DexPro::Berry.new().all
+```
+
+list a section of the full catalog of berries, it can receive a page and a limit to specify page and number of items on each list, each item containing its name and a link to the item full info
+
+```ruby
+DexPro::Berry.new().list(1, 20)
+```
+
+find a berries by its id or name, this method return a hash containing all the info available in the api about the id or name you search
+
+```ruby
+DexPro::Berry.new().find()
+```
+
+## Contest Type
+
+Get all the Contest Types will return all available contest types on the Api returning them on an Array with each item contain its name and a link to the single item info:
+
+```ruby
+DexPro::ContestType.new().all
+```
+
+list a section of the full catalog of contest types, it can receive a page and a limit to specify page and number of items on each list, each item containing its name and a link to the item full info
+
+```ruby
+DexPro::ContestType.new().list(1, 20)
+```
+
+find a contest types by its id or name, this method return a hash containing all the info available in the api about the id or name you search
+
+```ruby
+DexPro::ContestType.new().find()
+```
+
+
 
 ## Development
 
