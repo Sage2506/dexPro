@@ -24,10 +24,22 @@ TODO: Write usage instructions here
 
 After you install the gem you have access to all the categories classes.
 
-Get all the Pokémon will return all available pokémon on the Api returning them on an Array:
+Get all the Pokémon will return all available pokémon on the Api returning them on an Array with each item contain it name and a link to the single item info:
 
 ```ruby
 DexPro::Pokemon.new().all
+```
+
+list a section of the full catalog of pokemon, it can receive a page and a limit to specify page and number of items on each list, each item containing its name and a link to the item full info
+
+```ruby
+DexPro::Pokemon.new().list(1, 20)
+```
+
+find a pokemon by its id or name, this method return a hash containing all the info available in the api about the id or name you search
+
+```ruby
+DexPro::Pokemon.new().find()
 ```
 
 ## Development
