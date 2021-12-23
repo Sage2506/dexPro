@@ -1,8 +1,6 @@
 # DexPro
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dexPro`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a wrapper of the Pokemon Api V2 Pokeapi. It contains al the main requests such as fetch all pokemons, one by one, fetch Berries, Contests, Encounters, Evolution, Games, Items, Locations, Machines and moves
 
 ## Installation
 
@@ -23,6 +21,14 @@ Or install it yourself as:
 ## Usage
 
 TODO: Write usage instructions here
+
+After you install the gem you have access to all the categories classes.
+
+Get all the Pokémon will return all available pokémon on the Api returning them on an Array:
+
+```ruby
+DexPro::Pokemon.new().all
+```
 
 ## Development
 
