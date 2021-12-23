@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/encounter-method?limit=20&offset=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 Dec 2021 14:49:56 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"294-zGcDfCAHizt8e2Dhg83LpTFVigc"
+      Function-Execution-Id:
+      - 3vfriqkm2lrg
+      X-Cloud-Trace-Context:
+      - 3ac09d19efe56e0b24916e409b61b6de
+      X-Country-Code:
+      - MX
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dal21271-DAL
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1640270997.641828,VS0,VE213
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=17AUGqv1KpPMEfUYwqFtVvdqKJ9NnCNvP2DWXRZmXO3sgu8OyW1c0fxH%2B9eWXVh8i0FExtKm9yQbaPDaPV5fRBXg7xFqmi9WcFT2Rp1BHoOouZx6TlfaLJYtZVqA"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c2266407b1db2fc-MEX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":27,"next":null,"previous":"https://pokeapi.co/api/v2/encounter-method?offset=0&limit=20","results":[{"name":"pokeflute","url":"https://pokeapi.co/api/v2/encounter-method/21/"},{"name":"headbutt-low","url":"https://pokeapi.co/api/v2/encounter-method/22/"},{"name":"headbutt-normal","url":"https://pokeapi.co/api/v2/encounter-method/23/"},{"name":"headbutt-high","url":"https://pokeapi.co/api/v2/encounter-method/24/"},{"name":"squirt-bottle","url":"https://pokeapi.co/api/v2/encounter-method/25/"},{"name":"wailmer-pail","url":"https://pokeapi.co/api/v2/encounter-method/26/"},{"name":"seaweed","url":"https://pokeapi.co/api/v2/encounter-method/27/"}]}'
+  recorded_at: Thu, 23 Dec 2021 14:49:57 GMT
+recorded_with: VCR 6.0.0

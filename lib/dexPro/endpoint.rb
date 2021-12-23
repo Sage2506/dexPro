@@ -38,7 +38,7 @@ module DexPro
         attr_reader :api
 
         def endpoint_name
-            @endpoint_name ||= self.class.name.split("::")[-1].downcase
+            @endpoint_name ||= self.class.name.split("::")[-1].split(/(?=[A-Z])/).map(&:downcase).join('-')
         end
     end
 end

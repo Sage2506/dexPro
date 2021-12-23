@@ -1,0 +1,151 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/encounter-method
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 Dec 2021 14:49:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '314'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"65f-eAhcwQ/VBWzVv2I1fsTgRAac4ak"
+      Function-Execution-Id:
+      - d7bju1l6vuyh
+      X-Cloud-Trace-Context:
+      - 3c78aa5241f214fb02ee095d16d1beff;o=1
+      X-Country-Code:
+      - MX
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dal21278-DAL
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1640270997.125191,VS0,VE191
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Accept-Ranges:
+      - bytes
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qX394fbI4uKQ%2B7chzDSS7Vrp00gXvF1zKlZTsB2UEzNOad5kls04jqf0cyRzUfWkiujVqKkaFWFTW0UfR%2BN6la1yNRwxBN7IH2LxdIzq6lYT5Okf%2FB1FECsHJZCI"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c22664368b6524d-MEX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":27,"next":"https://pokeapi.co/api/v2/encounter-method?offset=20&limit=7","previous":null,"results":[{"name":"walk","url":"https://pokeapi.co/api/v2/encounter-method/1/"},{"name":"old-rod","url":"https://pokeapi.co/api/v2/encounter-method/2/"},{"name":"good-rod","url":"https://pokeapi.co/api/v2/encounter-method/3/"},{"name":"super-rod","url":"https://pokeapi.co/api/v2/encounter-method/4/"},{"name":"surf","url":"https://pokeapi.co/api/v2/encounter-method/5/"},{"name":"rock-smash","url":"https://pokeapi.co/api/v2/encounter-method/6/"},{"name":"headbutt","url":"https://pokeapi.co/api/v2/encounter-method/7/"},{"name":"dark-grass","url":"https://pokeapi.co/api/v2/encounter-method/8/"},{"name":"grass-spots","url":"https://pokeapi.co/api/v2/encounter-method/9/"},{"name":"cave-spots","url":"https://pokeapi.co/api/v2/encounter-method/10/"},{"name":"bridge-spots","url":"https://pokeapi.co/api/v2/encounter-method/11/"},{"name":"super-rod-spots","url":"https://pokeapi.co/api/v2/encounter-method/12/"},{"name":"surf-spots","url":"https://pokeapi.co/api/v2/encounter-method/13/"},{"name":"yellow-flowers","url":"https://pokeapi.co/api/v2/encounter-method/14/"},{"name":"purple-flowers","url":"https://pokeapi.co/api/v2/encounter-method/15/"},{"name":"red-flowers","url":"https://pokeapi.co/api/v2/encounter-method/16/"},{"name":"rough-terrain","url":"https://pokeapi.co/api/v2/encounter-method/17/"},{"name":"gift","url":"https://pokeapi.co/api/v2/encounter-method/18/"},{"name":"gift-egg","url":"https://pokeapi.co/api/v2/encounter-method/19/"},{"name":"only-one","url":"https://pokeapi.co/api/v2/encounter-method/20/"}]}'
+  recorded_at: Thu, 23 Dec 2021 14:49:57 GMT
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/encounter-method?limit=7&offset=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 Dec 2021 14:49:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"294-JQqurI4gIf9WHE35rxKic7F5gmI"
+      Function-Execution-Id:
+      - lrf55m7901t3
+      X-Cloud-Trace-Context:
+      - 023712c6496ba57a1dc20d65f06adc45
+      X-Country-Code:
+      - MX
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dal21234-DAL
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1640270998.564335,VS0,VE292
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gfTTox%2F1hXosppQD2SOHZhy9cRRH2XiUMNz81JEB1wXTZ5gVLv9maURzM%2F3oiPJot7wFPEeuWap1vXhudk2xWODv2aveue7zdZxUHCACsFuvBMNuxm2yde92OuyJ"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c2266463ee95223-MEX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":27,"next":null,"previous":"https://pokeapi.co/api/v2/encounter-method?offset=13&limit=7","results":[{"name":"pokeflute","url":"https://pokeapi.co/api/v2/encounter-method/21/"},{"name":"headbutt-low","url":"https://pokeapi.co/api/v2/encounter-method/22/"},{"name":"headbutt-normal","url":"https://pokeapi.co/api/v2/encounter-method/23/"},{"name":"headbutt-high","url":"https://pokeapi.co/api/v2/encounter-method/24/"},{"name":"squirt-bottle","url":"https://pokeapi.co/api/v2/encounter-method/25/"},{"name":"wailmer-pail","url":"https://pokeapi.co/api/v2/encounter-method/26/"},{"name":"seaweed","url":"https://pokeapi.co/api/v2/encounter-method/27/"}]}'
+  recorded_at: Thu, 23 Dec 2021 14:49:58 GMT
+recorded_with: VCR 6.0.0

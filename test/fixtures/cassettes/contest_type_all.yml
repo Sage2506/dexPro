@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pokeapi.co/api/v2/berry/1
+    uri: https://pokeapi.co/api/v2/contest-type
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 23 Dec 2021 03:09:25 GMT
+      - Thu, 23 Dec 2021 15:59:53 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,11 +33,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400, s-maxage=86400
       Etag:
-      - W/"330-qewQ37yB7yyQ7812CEdaWUDA8ck"
+      - W/"181-VUN11XfJqCpc9UDV2Y35rnNhwMo"
       Function-Execution-Id:
-      - emdrga4s3yj0
+      - xgdbfnfh46lb
       X-Cloud-Trace-Context:
-      - 02fd8231f284b3c629d3ec0a0218248b
+      - a1f37913bb3428c68de135eb0fdbd561
       X-Country-Code:
       - MX
       X-Fh-No-Setcookie-Unroll:
@@ -45,34 +45,34 @@ http_interactions:
       X-Powered-By:
       - Express
       X-Served-By:
-      - cache-dal21257-DAL
+      - cache-dal21231-DAL
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1640226983.454341,VS0,VE233
+      - S1640228530.029822,VS0,VE165
       Vary:
       - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
       Cf-Cache-Status:
       - HIT
       Age:
-      - '1982'
+      - '46663'
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KQD8Bw4KLhxBmN3k%2FJ6A9gL4ixpgL4akrZ8ydn22MvMjeFg1l%2FyGFKCQl%2BJCzM1DH88%2BzRa4qK5osbwiqu8KHXrvaDk2v6NHabXZ0mch9bR6vJ%2F7AWIhtevnjRKg"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3OHlhpKl8Uy0UNk%2BVYE3MT9kQQvGCghUs4dojCQsidXB0KQ4IIUiKFDq52B9kKQumDg46ZoxkWqcb7fX2X%2B7awgtXpRyiE%2Fy2W1z2pKV4avssvFmqpMV8nwIaxhm"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6c1e641c19755217-MEX
+      - 6c22ccb5eca45266-MEX
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
         ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"firmness":{"name":"soft","url":"https://pokeapi.co/api/v2/berry-firmness/2/"},"flavors":[{"flavor":{"name":"spicy","url":"https://pokeapi.co/api/v2/berry-flavor/1/"},"potency":10},{"flavor":{"name":"dry","url":"https://pokeapi.co/api/v2/berry-flavor/2/"},"potency":0},{"flavor":{"name":"sweet","url":"https://pokeapi.co/api/v2/berry-flavor/3/"},"potency":0},{"flavor":{"name":"bitter","url":"https://pokeapi.co/api/v2/berry-flavor/4/"},"potency":0},{"flavor":{"name":"sour","url":"https://pokeapi.co/api/v2/berry-flavor/5/"},"potency":0}],"growth_time":3,"id":1,"item":{"name":"cheri-berry","url":"https://pokeapi.co/api/v2/item/126/"},"max_harvest":5,"name":"cheri","natural_gift_power":60,"natural_gift_type":{"name":"fire","url":"https://pokeapi.co/api/v2/type/10/"},"size":20,"smoothness":25,"soil_dryness":15}'
-  recorded_at: Thu, 23 Dec 2021 03:09:25 GMT
+      string: '{"count":5,"next":null,"previous":null,"results":[{"name":"cool","url":"https://pokeapi.co/api/v2/contest-type/1/"},{"name":"beauty","url":"https://pokeapi.co/api/v2/contest-type/2/"},{"name":"cute","url":"https://pokeapi.co/api/v2/contest-type/3/"},{"name":"smart","url":"https://pokeapi.co/api/v2/contest-type/4/"},{"name":"tough","url":"https://pokeapi.co/api/v2/contest-type/5/"}]}'
+  recorded_at: Thu, 23 Dec 2021 15:59:53 GMT
 recorded_with: VCR 6.0.0

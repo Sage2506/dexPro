@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/contest-type?limit=20&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - pokeapi.co
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 23 Dec 2021 15:59:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400, s-maxage=86400
+      Etag:
+      - W/"181-VUN11XfJqCpc9UDV2Y35rnNhwMo"
+      Function-Execution-Id:
+      - emdrxc4njm07
+      X-Cloud-Trace-Context:
+      - 7fa0e85d06347f59ae117bceb25a8dc2
+      X-Country-Code:
+      - MX
+      X-Fh-No-Setcookie-Unroll:
+      - 'true'
+      X-Powered-By:
+      - Express
+      X-Served-By:
+      - cache-dal21278-DAL
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Timer:
+      - S1640275194.558642,VS0,VE1
+      Vary:
+      - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
+      Cf-Cache-Status:
+      - MISS
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Mwt99e2qILHLAiZjgH8YQM%2FsiztG6%2FXcctSeQqjIek3mc2aNw%2B7nDePVbZ5Fvk5pBx88mxgMwEjMU5H%2Fd8tf0g3c7ST2JpkHvPZJt7T25yv56%2Fo%2B8U3HdraMXsV1"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6c22ccb71e24b2ae-MEX
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
+        ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"count":5,"next":null,"previous":null,"results":[{"name":"cool","url":"https://pokeapi.co/api/v2/contest-type/1/"},{"name":"beauty","url":"https://pokeapi.co/api/v2/contest-type/2/"},{"name":"cute","url":"https://pokeapi.co/api/v2/contest-type/3/"},{"name":"smart","url":"https://pokeapi.co/api/v2/contest-type/4/"},{"name":"tough","url":"https://pokeapi.co/api/v2/contest-type/5/"}]}'
+  recorded_at: Thu, 23 Dec 2021 15:59:53 GMT
+recorded_with: VCR 6.0.0
