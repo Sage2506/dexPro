@@ -1,51 +1,53 @@
 module DexPro
     class Pokemon < Endpoint
-        class Ability < Pokemon
+
+        def locationAreas(id)
+            api.get("#{endpoint_name}/#{id}/encounters")
         end
 
-        class Characteristic < Pokemon
+        class Ability < Endpoint
         end
 
-        class Gender < Pokemon
+        class Characteristic < Endpoint
         end
 
-        class Nature < Pokemon
+        class Gender < Endpoint
         end
 
-        class Stat < Pokemon
+        class Nature < Endpoint
         end
 
-        class Type < Pokemon
+        class Stat < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class Type < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class Characteristic < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class EggGroup < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class GrowthRate < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class PokeathlonStat < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class PokemonColor < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class PokemonForm < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class PokemonHabitat < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class PokemonShape < Endpoint
         end
 
-        class Characteristic < Pokemon
+        class PokemonSpecies < Endpoint
         end
     end
 end
