@@ -3,7 +3,6 @@
 require_relative "dexPro/version"
 require 'json'
 require 'net/http'
-require_relative "dexPro/async_stream"
 require_relative "dexPro/async_api"
 require_relative "dexPro/endpoint"
 require_relative "dexPro/pokemon"

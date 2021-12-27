@@ -11,17 +11,17 @@ module DexPro
         def get(path, **args)
             result = {}
             Async do
-                # Make a new internet:
                 internet = Async::HTTP::Internet.new
-                # Issues a POST request:
                 response = internet.get(build_uri(path,**args))
-                # Save the response body to a local file:
                 result = JSON.parse(response.read, symbolize_names: true)
             ensure
-                # The internet is closed for business:
                 internet.close
             end
             result
+        end
+
+        def get_url(path, **args)
+            build_uri(path, **args)
         end
 
         private
