@@ -4,7 +4,7 @@ require_relative "dexPro/version"
 require 'json'
 require 'net/http'
 require_relative "dexPro/async_stream"
-require_relative "dexPro/api"
+require_relative "dexPro/async_api"
 require_relative "dexPro/endpoint"
 require_relative "dexPro/pokemon"
 require_relative "dexPro/berry"
@@ -12,6 +12,11 @@ require_relative "dexPro/contest"
 require_relative "dexPro/encounter"
 require_relative "dexPro/evolution"
 require_relative "dexPro/move"
+require_relative "dexPro/game"
+require_relative "dexPro/item"
+require_relative "dexPro/machine"
+
+
 
 module DexPro
     BASE_URL = 'https://pokeapi.co/api/v2/'.freeze

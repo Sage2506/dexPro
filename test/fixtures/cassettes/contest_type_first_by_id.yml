@@ -8,26 +8,17 @@ http_interactions:
       string: ''
     headers:
       Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-      Host:
-      - pokeapi.co
+      - gzip
+      - identity
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 23 Dec 2021 15:59:54 GMT
+      - Mon, 27 Dec 2021 19:41:58 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
@@ -35,9 +26,9 @@ http_interactions:
       Etag:
       - W/"144-fc2YJUj8Gt76TBqQfLuqjeqdbOs"
       Function-Execution-Id:
-      - emdrknk3g8gu
+      - 01lny1ojit4j
       X-Cloud-Trace-Context:
-      - 0fa888829e9a552a43f6be0d1ae9f72f
+      - 49f87e22e5af3930d819c3e4ab9cc0a4
       X-Country-Code:
       - MX
       X-Fh-No-Setcookie-Unroll:
@@ -45,13 +36,13 @@ http_interactions:
       X-Powered-By:
       - Express
       X-Served-By:
-      - cache-dal21281-DAL
+      - cache-dal21227-DAL
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1640275194.934701,VS0,VE211
+      - S1640634118.195856,VS0,VE274
       Vary:
       - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
       Cf-Cache-Status:
@@ -59,18 +50,21 @@ http_interactions:
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pSs5tgDlB0MK8GqFKEIQZjbyJ9%2BmhTj2OrDz9eZf39O1v%2FJy616wTgmIDct419P4gicrvCR8PgTFlvoC3KRgVCAtfVrGkbt8eoulb5mrZShMkmwR31jYf8%2Bdwm1y"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eV0qql1vRDQoj7GTYf6IZRVwM2hP8%2Bile5ZgIRNE00vWqjQYmYFIGZtiW7FsxdWsGMEGin%2FG3tq0IlaL1aOQf7X38GeGacNcKWpWAx1CdItHFskh5kP6x4pswbPx"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6c22ccb97ae8522f-MEX
+      - 6c4507863981523b-MEX
+      Content-Encoding:
+      - gzip
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
         ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"berry_flavor":{"name":"spicy","url":"https://pokeapi.co/api/v2/berry-flavor/1/"},"id":1,"name":"cool","names":[{"color":"Rouge","language":{"name":"fr","url":"https://pokeapi.co/api/v2/language/5/"},"name":"Sang-froid"},{"color":"Red","language":{"name":"en","url":"https://pokeapi.co/api/v2/language/9/"},"name":"Cool"}]}'
-  recorded_at: Thu, 23 Dec 2021 15:59:54 GMT
+      string: !binary |-
+        H4sIAAAAAAAAA5XPvQrCMBSG4Xv55uihgoNZvQMdRSSmaQzGnJD+QCm5d2lroYODjmd4z8M34G5S6m+VVx0nyAFBvQwk6uh0D4E2eUg8mibWkijy06jotppJRUfdjqZ8M+dUELKAKyELsTzSzB7zVUNeBmj2o4QTt9ZAwKtgW2XNCq/SD/LS0X5SP+lZBbupErsSWawwU36nTPiHOqyp47gsX/MbydBaK0QBAAA=
+  recorded_at: Mon, 27 Dec 2021 19:42:06 GMT
 recorded_with: VCR 6.0.0

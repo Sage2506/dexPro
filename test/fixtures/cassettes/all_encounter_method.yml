@@ -8,36 +8,29 @@ http_interactions:
       string: ''
     headers:
       Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-      Host:
-      - pokeapi.co
+      - gzip
+      - identity
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 23 Dec 2021 14:49:57 GMT
+      - Mon, 27 Dec 2021 19:41:57 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Content-Length:
-      - '314'
-      Connection:
-      - keep-alive
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
       - public, max-age=86400, s-maxage=86400
+      Content-Encoding:
+      - gzip
       Etag:
       - W/"65f-eAhcwQ/VBWzVv2I1fsTgRAac4ak"
       Function-Execution-Id:
-      - d7bju1l6vuyh
+      - jhln6nvfxs22
       X-Cloud-Trace-Context:
-      - 3c78aa5241f214fb02ee095d16d1beff;o=1
+      - a3906456b71fe3f1df99d5b4d2428b13
       X-Country-Code:
       - MX
       X-Fh-No-Setcookie-Unroll:
@@ -45,36 +38,39 @@ http_interactions:
       X-Powered-By:
       - Express
       X-Served-By:
-      - cache-dal21278-DAL
+      - cache-dal21246-DAL
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1640270997.125191,VS0,VE191
+      - S1640633915.757634,VS0,VE179
       Vary:
       - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
       Cf-Cache-Status:
-      - MISS
+      - HIT
+      Age:
+      - '203'
       Accept-Ranges:
       - bytes
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qX394fbI4uKQ%2B7chzDSS7Vrp00gXvF1zKlZTsB2UEzNOad5kls04jqf0cyRzUfWkiujVqKkaFWFTW0UfR%2BN6la1yNRwxBN7IH2LxdIzq6lYT5Okf%2FB1FECsHJZCI"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C5aj9aDEKW7szEQeBroGFYgJAGY7vWz2hBXHI7MrQ9NHlcmz7VMJY67Lnk6tthBiOy9ufPPzl6TztDUhQ43AoaKuoSwplEokLf18ZIGWOyggrxy75WuPeIBcWoA5"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6c22664368b6524d-MEX
+      - 6c45078389c05247-MEX
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
         ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"count":27,"next":"https://pokeapi.co/api/v2/encounter-method?offset=20&limit=7","previous":null,"results":[{"name":"walk","url":"https://pokeapi.co/api/v2/encounter-method/1/"},{"name":"old-rod","url":"https://pokeapi.co/api/v2/encounter-method/2/"},{"name":"good-rod","url":"https://pokeapi.co/api/v2/encounter-method/3/"},{"name":"super-rod","url":"https://pokeapi.co/api/v2/encounter-method/4/"},{"name":"surf","url":"https://pokeapi.co/api/v2/encounter-method/5/"},{"name":"rock-smash","url":"https://pokeapi.co/api/v2/encounter-method/6/"},{"name":"headbutt","url":"https://pokeapi.co/api/v2/encounter-method/7/"},{"name":"dark-grass","url":"https://pokeapi.co/api/v2/encounter-method/8/"},{"name":"grass-spots","url":"https://pokeapi.co/api/v2/encounter-method/9/"},{"name":"cave-spots","url":"https://pokeapi.co/api/v2/encounter-method/10/"},{"name":"bridge-spots","url":"https://pokeapi.co/api/v2/encounter-method/11/"},{"name":"super-rod-spots","url":"https://pokeapi.co/api/v2/encounter-method/12/"},{"name":"surf-spots","url":"https://pokeapi.co/api/v2/encounter-method/13/"},{"name":"yellow-flowers","url":"https://pokeapi.co/api/v2/encounter-method/14/"},{"name":"purple-flowers","url":"https://pokeapi.co/api/v2/encounter-method/15/"},{"name":"red-flowers","url":"https://pokeapi.co/api/v2/encounter-method/16/"},{"name":"rough-terrain","url":"https://pokeapi.co/api/v2/encounter-method/17/"},{"name":"gift","url":"https://pokeapi.co/api/v2/encounter-method/18/"},{"name":"gift-egg","url":"https://pokeapi.co/api/v2/encounter-method/19/"},{"name":"only-one","url":"https://pokeapi.co/api/v2/encounter-method/20/"}]}'
-  recorded_at: Thu, 23 Dec 2021 14:49:57 GMT
+      string: !binary |-
+        H4sIAAAAAAAAA6XUS27DIBAG4Luw6MqU2G2TNlLUg1RdEDPGyJhBPJJGUe5e0kUlkm463vAQ6JsF83NmPWaX2LbbNMzBV1mxMSUft0J4nEB689ijKJM4dALcz20IfIY0onrHYYiQdt3qwZrZpN2GNcwHOBjMkW1dtrZhAWK2qWw/zszJGUqFo7RTuZmD/Vc50Qp2aX4VtIoHVBSoqyCNSJaeKilmX46I1PMNFQaK8lIpAfuJx1nGkWKtK2sEqfY5JYq0qSQlw8R1kDFSrNf68a4Mjx4TCXursF4egG61qwrbB6P0Eq79u7cWiN1diy3A6tY/gbV45EMZINDAOgA+B29hEXiTBVCLtPVNsrIeeTkP0jiSV2dCm4GUrPb1juGgNYmqw4DOnjg6IH2w1yh8Xr4Bko3I6F8GAAA=
+  recorded_at: Mon, 27 Dec 2021 19:42:05 GMT
 - request:
     method: get
     uri: https://pokeapi.co/api/v2/encounter-method?limit=7&offset=20
@@ -83,26 +79,17 @@ http_interactions:
       string: ''
     headers:
       Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-      Host:
-      - pokeapi.co
+      - gzip
+      - identity
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Thu, 23 Dec 2021 14:49:57 GMT
+      - Mon, 27 Dec 2021 19:41:57 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
@@ -110,9 +97,9 @@ http_interactions:
       Etag:
       - W/"294-JQqurI4gIf9WHE35rxKic7F5gmI"
       Function-Execution-Id:
-      - lrf55m7901t3
+      - jhlnpprpq94s
       X-Cloud-Trace-Context:
-      - 023712c6496ba57a1dc20d65f06adc45
+      - 562f9b2f3726d5efdeaa4d7ecb46b318
       X-Country-Code:
       - MX
       X-Fh-No-Setcookie-Unroll:
@@ -120,32 +107,37 @@ http_interactions:
       X-Powered-By:
       - Express
       X-Served-By:
-      - cache-dal21234-DAL
+      - cache-dal21223-DAL
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1640270998.564335,VS0,VE292
+      - S1640633915.250540,VS0,VE189
       Vary:
       - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
       Cf-Cache-Status:
-      - MISS
+      - HIT
+      Age:
+      - '202'
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gfTTox%2F1hXosppQD2SOHZhy9cRRH2XiUMNz81JEB1wXTZ5gVLv9maURzM%2F3oiPJot7wFPEeuWap1vXhudk2xWODv2aveue7zdZxUHCACsFuvBMNuxm2yde92OuyJ"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OIBoI0j%2F%2FyrD7rjPGcJaoCSfZ32XmxZUmuuQ2DVUuUexJw7vZ8lwQCxnhUbY6t%2Bw6c%2B%2BVCbBFCoblc%2FiroCSDvGNw%2FEhWYSeQPvhG2Ry8spvM2jOACVuPXKIvdXc"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6c2266463ee95223-MEX
+      - 6c450784d8a2521d-MEX
+      Content-Encoding:
+      - gzip
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
         ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"count":27,"next":null,"previous":"https://pokeapi.co/api/v2/encounter-method?offset=13&limit=7","results":[{"name":"pokeflute","url":"https://pokeapi.co/api/v2/encounter-method/21/"},{"name":"headbutt-low","url":"https://pokeapi.co/api/v2/encounter-method/22/"},{"name":"headbutt-normal","url":"https://pokeapi.co/api/v2/encounter-method/23/"},{"name":"headbutt-high","url":"https://pokeapi.co/api/v2/encounter-method/24/"},{"name":"squirt-bottle","url":"https://pokeapi.co/api/v2/encounter-method/25/"},{"name":"wailmer-pail","url":"https://pokeapi.co/api/v2/encounter-method/26/"},{"name":"seaweed","url":"https://pokeapi.co/api/v2/encounter-method/27/"}]}'
-  recorded_at: Thu, 23 Dec 2021 14:49:58 GMT
+      string: !binary |-
+        H4sIAAAAAAAAA53QQWrDMBAF0LvMoiu5Ik5agyDkICELJR5XoiONIo3iQPDdQ7soGLKpDjDv/z8PuHCNAqYfFES8C5hYiRSkjDfPtYABJ5KK0TrxN9rk3y+sbfL61muMv9eYu4DieDzwNBWU/Wb7Rj542Q+gIGOpJAXM8QHRBgQDP9JEVRAU1Ez/ytD9RsOi/iyHdjxXkY54buL611zkHCw1idvXovNfrsnbrbxyrT5Ld2YRanvgx8qbraeAuUvWt839XNdDOyOOTdKgYTktT9PWzgyUAgAA
+  recorded_at: Mon, 27 Dec 2021 19:42:06 GMT
 recorded_with: VCR 6.0.0

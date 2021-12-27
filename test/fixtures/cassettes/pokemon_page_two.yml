@@ -8,75 +8,69 @@ http_interactions:
       string: ''
     headers:
       Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-      Host:
-      - pokeapi.co
+      - gzip
+      - identity
   response:
     status:
       code: 200
       message: OK
     headers:
       Date:
-      - Wed, 22 Dec 2021 17:17:46 GMT
+      - Mon, 27 Dec 2021 19:41:55 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Content-Length:
-      - '300'
-      Connection:
-      - keep-alive
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
       - public, max-age=86400, s-maxage=86400
+      Content-Encoding:
+      - gzip
       Etag:
       - W/"5bd-TgkQoQBfi6p5AftPliBuf0ChBZA"
       Function-Execution-Id:
-      - 3fj75fpysjpl
+      - uvmp0ujv651a
       X-Cloud-Trace-Context:
-      - 8c8ae69cd0ed720e07dc3e6377b62d4b
+      - b1478e0ba8421105b090c001a1e3a7f4
       X-Country-Code:
-      - US
+      - MX
       X-Fh-No-Setcookie-Unroll:
       - 'true'
       X-Orig-Accept-Language:
-      - en-US,en;q=0.9
+      - es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3
       X-Powered-By:
       - Express
       X-Served-By:
-      - cache-bur17557-BUR
+      - cache-dal21280-DAL
       X-Cache:
-      - MISS
+      - HIT
       X-Cache-Hits:
-      - '0'
+      - '1'
       X-Timer:
-      - S1639970466.922626,VS0,VE373
+      - S1640383585.290900,VS0,VE167
       Vary:
       - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
       Cf-Cache-Status:
       - HIT
       Age:
-      - '26339'
+      - '8238'
       Accept-Ranges:
       - bytes
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vPu5Pye%2BiQr6ndLNOlz1YuxDMBiCSeV6uAKZ0NLPFFM%2Fq0eqVciG0aIMmV5GFUGRWJkNASsgbTcB8Qx%2F15VcKALmokMkn3YgM%2B0PKsZMxuLzh0FFgFNAHy%2FWtrgA"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S8K%2BuKf1%2BmUJGy36RV48m68d4rCXsN%2Bxa8h4th5mqspB0iTfYdqTF8exg636IY%2BC7ZhRtSiP4xUDYQ204BsI15JeVFJPhmPFv6w4FAL7eD7phL6XL7rlty0bGy%2Bl"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6c1b016be85f52bf-LAX
+      - 6c4507744f715253-MEX
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443";
         ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"count":1118,"next":"https://pokeapi.co/api/v2/pokemon?offset=40&limit=20","previous":"https://pokeapi.co/api/v2/pokemon?offset=0&limit=20","results":[{"name":"spearow","url":"https://pokeapi.co/api/v2/pokemon/21/"},{"name":"fearow","url":"https://pokeapi.co/api/v2/pokemon/22/"},{"name":"ekans","url":"https://pokeapi.co/api/v2/pokemon/23/"},{"name":"arbok","url":"https://pokeapi.co/api/v2/pokemon/24/"},{"name":"pikachu","url":"https://pokeapi.co/api/v2/pokemon/25/"},{"name":"raichu","url":"https://pokeapi.co/api/v2/pokemon/26/"},{"name":"sandshrew","url":"https://pokeapi.co/api/v2/pokemon/27/"},{"name":"sandslash","url":"https://pokeapi.co/api/v2/pokemon/28/"},{"name":"nidoran-f","url":"https://pokeapi.co/api/v2/pokemon/29/"},{"name":"nidorina","url":"https://pokeapi.co/api/v2/pokemon/30/"},{"name":"nidoqueen","url":"https://pokeapi.co/api/v2/pokemon/31/"},{"name":"nidoran-m","url":"https://pokeapi.co/api/v2/pokemon/32/"},{"name":"nidorino","url":"https://pokeapi.co/api/v2/pokemon/33/"},{"name":"nidoking","url":"https://pokeapi.co/api/v2/pokemon/34/"},{"name":"clefairy","url":"https://pokeapi.co/api/v2/pokemon/35/"},{"name":"clefable","url":"https://pokeapi.co/api/v2/pokemon/36/"},{"name":"vulpix","url":"https://pokeapi.co/api/v2/pokemon/37/"},{"name":"ninetales","url":"https://pokeapi.co/api/v2/pokemon/38/"},{"name":"jigglypuff","url":"https://pokeapi.co/api/v2/pokemon/39/"},{"name":"wigglytuff","url":"https://pokeapi.co/api/v2/pokemon/40/"}]}'
-  recorded_at: Wed, 22 Dec 2021 17:18:03 GMT
+      string: !binary |-
+        H4sIAAAAAAAAA5XTy26DMBCF4XfxoitarmkuUtQHqbqYkDG4mLHrC0kU5d1Ls6jkkkVnBQL9n4R1uIrWRApiV5blJhOE5/le9CFYv8tzawYEq15ak8+XfKruT0ZDb0ZKj2HfFE9ajSrsq0JkwjqclImeIySAQx91mPv3qyAYcYa8RXDmNL+MTv8HzqsyF7fsF5Dsvkp6HIA8J6+THNzBDJy8SXKrBmj7yAFWCeBAMfvXpPdAR987ZJ3geklo8D2H2CQEqaNxQM+SQ2yXhCJgCHWxEL4iInGI8uF3jByievQdhiPUC2FQ1HGEdJWtRgnKXTjCaikcNHKEdJhT1FadOf36zykQBtDI+bfrdJWfquv0xUbJmWWdzvJ0NwLPaH6G+XH7Boq2zQm9BQAA
+  recorded_at: Mon, 27 Dec 2021 19:42:03 GMT
 recorded_with: VCR 6.0.0

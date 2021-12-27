@@ -5,14 +5,16 @@ module DexPro
         end
 
         def map
-          enumerable.map do |item|
-            Thread.new { yield(item) }
-          end.map(&:value)
+            enumerable.map do |item|
+                    Thread.new { yield(item) }
+            end.map(&:value)
         end
 
         def sum(&block)
           map(&block).inject(:+)
         end
+
+
 
         private
 

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://pokeapi.co/api/v2/berry/1
+    uri: https://pokeapi.co/api/v2/berry-flavor?limit=20&offset=0
     body:
       encoding: US-ASCII
       string: ''
@@ -16,7 +16,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 27 Dec 2021 19:41:51 GMT
+      - Mon, 27 Dec 2021 19:41:54 GMT
       Content-Type:
       - application/json; charset=utf-8
       Access-Control-Allow-Origin:
@@ -24,11 +24,11 @@ http_interactions:
       Cache-Control:
       - public, max-age=86400, s-maxage=86400
       Etag:
-      - W/"330-qewQ37yB7yyQ7812CEdaWUDA8ck"
+      - W/"180-bq/Co5OOLMJ81QQ3EAY3Yue1OWQ"
       Function-Execution-Id:
-      - jhlnw3z2uv72
+      - jhlnfq0hoxza
       X-Cloud-Trace-Context:
-      - d15ea2c793ae4e60c3e881760f874f5f
+      - 6b5bf05dc44512f5d0a92cb2ce0a4e26
       X-Country-Code:
       - MX
       X-Fh-No-Setcookie-Unroll:
@@ -36,27 +36,29 @@ http_interactions:
       X-Powered-By:
       - Express
       X-Served-By:
-      - cache-dal21269-DAL
+      - cache-dal21246-DAL
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1640634112.677151,VS0,VE162
+      - S1640633829.120485,VS0,VE222
       Vary:
       - Accept-Encoding,cookie,need-authorization, x-fh-requested-host, accept-encoding
       Cf-Cache-Status:
-      - MISS
+      - HIT
+      Age:
+      - '285'
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6nATdjNHt68hLaK8pFDjPXexfudgz2lzS%2B09KtXYYR%2BSq3ZQ%2FFn%2BWIdXqukCqp9087LPEEaNl%2BQopYDx1uFHzJMntDKrm%2FQEY9PsuhecxU%2FrO2iNXwTkRQrO%2F%2FJ0"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eUqp5KZUyMHP%2Ba9IGsqtjZC6xXDKLO5O1a25D2%2F3VksuNgJl4SvbAkcQ7CIrGxkcW1lIgJIFA2HLpfstCEyLRMmwYb5ys%2FYcd3efok1tn75aMGLV%2F4pMB3ZDVa5M"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6c45075d6eb2525f-MEX
+      - 6c450771cb45524d-MEX
       Content-Encoding:
       - gzip
       Alt-Svc:
@@ -65,6 +67,6 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAA5XTwW6DMAwG4HfxOV2Ajh7yKtOEUjDFGpDIMTCGePcJukm06gFuiaX/83/xBCVx02IIYCZobYNgILhSQEHHNRioRHwwWnv3hdbTW+609aT7RF+ReTz953WiYVZQ1rZ3HMB8TH/vLewpH/fLa1zHq+udYJuPYOJoVi/ogg/DySP82g0DohyVz3vkK4kgH6Xfd5V23WE4fYY/FdzYDVJlQot6VkAFmFgBCTabbXmFTKcV27F0Ces4uazrGvudVZZ7DAImVQ8iLF/p2NbZjUrJvBuQwVyip7mMHjdtSmLcUWNJ6ThaWwT6QTBJpCA0zkl1P4ckVRAc1VnB430Sp/MvCi5MuzADAAA=
-  recorded_at: Mon, 27 Dec 2021 19:42:00 GMT
+        H4sIAAAAAAAAA5XOMQ7CMBAF0bv82rAikMZXQRROWISFsa31OiGKcncqkFK6nOZpVoypRoXtDSJ/FDbWEAyy8ORTLb8WLjVogb2uiO7NsCjZjwsMqgRYPFVzsUQ5vdhlfxwTuexp6mhgkeXwCG5KQifCZv7EXZqBbgeUmVlbifOOGLwqS6tx2W+k2iz0hO22fQFOqv2ZgAEAAA==
+  recorded_at: Mon, 27 Dec 2021 19:42:03 GMT
 recorded_with: VCR 6.0.0

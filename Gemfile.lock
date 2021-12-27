@@ -8,13 +8,22 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    async (1.30.1)
+      console (~> 1.10)
+      nio4r (~> 2.3)
+      timers (~> 4.1)
+    console (1.14.0)
+      fiber-local
     crack (0.4.5)
       rexml
+    fiber-local (1.0.0)
     hashdiff (1.0.1)
     minitest (5.15.0)
+    nio4r (2.5.8)
     public_suffix (4.0.6)
     rake (13.0.6)
     rexml (3.2.5)
+    timers (4.3.3)
     vcr (6.0.0)
     webmock (3.14.0)
       addressable (>= 2.8.0)
@@ -25,6 +34,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  async (~> 1.30)
   dexPro!
   minitest (~> 5.0)
   rake (~> 13.0)
